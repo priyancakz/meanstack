@@ -1,0 +1,14 @@
+<p>
+  first-com works!
+</p>
+<h1>{{myfirstvar}}</h1>
+
+<h1 *ngFor="let h of heroes">
+  {{ h.name }} {{h.id}} {{h.address}}
+</h1>
+
+<h2 *ngIf = "heroes.length > 1">Hello heroes!</h2>
+<input type="text" [(ngModel)]='pp'>
+<button (click)="onClickMe()">Click me!</button>
+<h2>{{pp}}</h2>
+  
